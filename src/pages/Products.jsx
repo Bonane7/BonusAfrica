@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
+import appleComputer from "../assets/apple.png";
+
+
+
 
 const products = [
   {
     name: "Ordinateur portable",
     price: "400 000 FRW",
     description: "PC rapide pour tous les usages.",
-    image: "/assets/laptop.png",
+    image: appleComputer,
   },
   {
     name: "Clé USB 64Go",

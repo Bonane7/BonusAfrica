@@ -2,8 +2,9 @@
 import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { servicesData } from "../components/ServiceCard";
-import { FaReact, FaNodeJs, FaCss3Alt, FaDatabase, FaQuoteLeft } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaCss3Alt, FaDatabase, FaPython, FaTools, FaCloud, FaQuoteLeft } from "react-icons/fa";
 import ContactPopup from "../components/ContactPopup";
+import appleComputer from "../assets/apple.png";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ const Home = () => {
         </div>
         <div className="flex-1">
           <img
-            src="/logo.svg"
+            src="../assets/react.svg"
             alt="BonusAfrica logo"
             className="w-full max-w-sm mx-auto animate-slide-in-right"
           />
@@ -61,11 +62,14 @@ const Home = () => {
       {/* Technologies */}
       <section className="text-center space-y-6">
         <h2 className="text-3xl font-bold text-teal-600 dark:text-teal-300">{t("technologies")}</h2>
-        <div className="flex justify-center gap-10 text-5xl text-teal-500 dark:text-teal-300">
-          <FaReact title="React" />
-          <FaNodeJs title="Node.js" />
-          <FaCss3Alt title="Tailwind CSS" />
-          <FaDatabase title="Database" />
+        <div className="flex justify-center flex-wrap gap-10 text-5xl text-teal-500 dark:text-teal-300">
+            <FaReact title="React" />
+            <FaNodeJs title="Node.js" />
+            <FaCss3Alt title="Tailwind CSS" />
+            <FaDatabase title="Database" />
+            <FaPython title="Python" />
+            <FaTools title="Maintenance Service" />
+            <FaCloud title="Cloud Services" />
         </div>
       </section>
 
@@ -74,7 +78,7 @@ const Home = () => {
         <h2 className="text-3xl font-bold text-center text-teal-600 dark:text-teal-300">{t("products")}</h2>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {[
-            { name: "Ordinateur", image: "/assets/laptop.png" },
+            { name: "Ordinateur", image: appleComputer },
             { name: "Clé USB", image: "/assets/usb.png" },
             { name: "Disque dur", image: "/assets/hdd.png" },
             { name: "Téléphone", image: "/assets/phone.png" },
