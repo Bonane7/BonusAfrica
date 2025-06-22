@@ -9,7 +9,7 @@ export const servicesData = [
       title: "Site e-commerce",
       price: "sur devis",
       description: "Vendez vos produits en ligne facilement.",
-      image: "/assets/ecommerce.png"
+      image: "/services/resto.jpg",
     },
     {
       title: "Application de livraison",
@@ -23,5 +23,56 @@ export const servicesData = [
       description: "Présentez vos compétences efficacement.",
       image: "/assets/portfolio.png"
     },
+    {
+      title: "Développement Web",
+      description: "Créez des sites web modernes et performants",
+      image: "/assets/services/service1.jpg", // Chemin depuis le dossier public
+      detailedDescription: "Nous développons des sites web sur mesure avec les dernières technologies...",
+      benefits: [
+        "Design responsive",
+        "Optimisation SEO",
+        "Intégration CMS"
+      ]
+    },
+    {
+      title: "Applications Mobile",
+      description: "Applications natives et cross-platform",
+      image: "/services/mobil-app.jpg",
+      detailedDescription: "Développement d'applications mobiles pour iOS et Android...",
+      benefits: [
+        "Interface intuitive",
+        "Performances optimales",
+        "Maintenance incluse"
+      ]
+    },
+    {
+      title: "Design Graphique",
+      description: "Identité visuelle et créations graphiques",
+      image: "/services/Design.jpg",
+      detailedDescription: "Création d'identités visuelles percutantes pour votre marque...",
+      benefits: [
+        "Logo personnalisé",
+        "Charte graphique",
+        "Supports print et digital"
+      ]
+    },
+
+    {
+      title: "Équipe à vos côtés",
+      description: "Notre équipe experte vous accompagne à chaque étape",
+      image: "/services/Ecupe-bonus.jpg", // Chemin depuis public/
+      detailedDescription: "Chez BonusAfrica, nous croyons en un accompagnement personnalisé. Notre équipe dédiée est disponible pour vous guider du premier contact jusqu'à la réalisation finale de votre projet.",
+      benefits: [
+        "Expertise disponible 24/7",
+        "Suivi personnalisé",
+        "Réponses rapides à vos questions",
+        "Solutions adaptées à vos besoins"
+      ],
+      specialIcon: "👥", // Icône de proximité
+      badge: "Disponible maintenant"
+    }
+
+
+    
   ];
   
