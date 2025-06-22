@@ -66,7 +66,7 @@ const Home = () => {
           minHeight: '85vh'
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <div id="home" className=" absolute inset-0 bg-black bg-opacity-40"></div>
         
         <div className="relative z-10 text-center px-6 py-16 md:py-24 max-w-4xl mx-auto">
           <h1 className="text-5xl sm:text-3xl md:text-4xl font-bold text-white leading-tight mb-6">
@@ -226,7 +226,7 @@ const Home = () => {
   </div>
 )}
       {/* Technologies */}
-      <section className="py-12 md:py-16 bg-gray-50 dark:bg-gray-900 rounded-xl">
+      <section id="tech" className="py-12 md:py-16 bg-gray-50 dark:bg-gray-900 rounded-xl">
         <div className="text-center mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-600 dark:text-teal-300 mb-4">
             Technologies Maîtrisées

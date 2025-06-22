@@ -2,8 +2,8 @@ export const servicesData = [
     {
       title: "Création de site web statique",
       price: "7 000 FRW",
-      description: "Site vitrine rapide pour votre activité.",
-      image: "/assets/static-site.png"
+      description: "Site vitrine rapide pour votre activité a 7000Frw.",
+      image: "services/site-statique.jpg"
     },
     {
       title: "Site e-commerce",
@@ -15,18 +15,18 @@ export const servicesData = [
       title: "Application de livraison",
       price: "sur devis",
       description: "Gestion de livraison pour entreprise.",
-      image: "/assets/delivery-app.png"
+      image: "/services/livraison.jpg"
     },
     {
       title: "Portfolio professionnel",
       price: "sur devis",
-      description: "Présentez vos compétences efficacement.",
-      image: "/assets/portfolio.png"
+      description: "Présentez vos compétences efficacement a 7000Frw.",
+      image: "/services/portfolio.jpg"
     },
     {
       title: "Développement Web",
       description: "Créez des sites web modernes et performants",
-      image: "/assets/services/service1.jpg", // Chemin depuis le dossier public
+      image: "/services/site-web.jpg", // Chemin depuis le dossier public
       detailedDescription: "Nous développons des sites web sur mesure avec les dernières technologies...",
       benefits: [
         "Design responsive",
