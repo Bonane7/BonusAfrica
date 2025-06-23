@@ -22,6 +22,90 @@
     "location": "Kigali, Kimisagara",
     "what_is_bonusAfrica":"BonusAfrica helps you get online visibility at a low cost, with modern and fast solutions.",
     "Who_are_we":"Who are we?",
-    "Description":"BonusAfrica is an African tech company aiming to make digital solutions accessible to everyone. We believe in the positive impact of technology in everyday life."
-  
+    "Description":"BonusAfrica is an African tech company aiming to make digital solutions accessible to everyone. We believe in the positive impact of technology in everyday life.",
+     "Technologies": "Our Technologies",
+     "Our_Services": "Our Services",
+     "Our_Premium_Services":"Our Premium Services",
+     "Discover":"Discover our customized solutions for your digital success",
+     "creation-site": "Static Website Creation",
+     "creation-site-description": "Quick showcase site for your business at 7,000 FRW.",
+   
+     "ecommerce-site": "E-commerce Website",
+     "ecommerce-site-description": "Easily sell your products online.",
+   
+     "delivery-app": "Delivery Application",
+     "delivery-app-description": "Delivery management for businesses.",
+   
+     "portfolio": "Professional Portfolio",
+     "portfolio-description": "Showcase your skills effectively for 7,000 FRW.",
+   
+     "web-dev": "Web Development",
+     "web-dev-description": "Create modern and high-performance websites",
+     "web-dev-details": "We build custom websites using the latest technologies...",
+     "web-dev-benefits": [
+       "Responsive design",
+       "SEO optimization",
+       "CMS integration"
+     ],
+   
+     "mobile-app": "Mobile Applications",
+     "mobile-app-description": "Native and cross-platform applications",
+     "mobile-app-details": "Mobile app development for iOS and Android...",
+     "mobile-app-benefits": [
+       "Intuitive interface",
+       "Optimal performance",
+       "Maintenance included"
+     ],
+   
+     "graphic-design": "Graphic Design",
+     "graphic-design-description": "Visual identity and graphic creations",
+     "graphic-design-details": "Impactful visual identities for your brand...",
+     "graphic-design-benefits": [
+       "Custom logo",
+       "Graphic charter",
+       "Print and digital materials"
+     ],
+   
+     "team-support": "Team by Your Side",
+     "team-support-description": "Our expert team supports you every step of the way",
+     "team-support-details": "At BonusAfrica, we believe in personalized support. Our dedicated team is available to guide you from first contact to final delivery.",
+     "team-support-benefits": [
+       "Expertise available 24/7",
+       "Personalized support",
+       "Quick answers to your questions",
+       "Tailored solutions"
+     ],
+     "available_now": "Available now",
+     "request_service": "Request this service",
+    "mastered_technologies": "Mastered Technologies",
+    "latest_tech_description": "We use the latest technologies for high-performance solutions",
+    "trusted_by": "They trust us",
+    "testimonials_intro": "Discover what our clients say about our work",
+    "ready_to_transform": "Ready to transform your project?",
+    "premium_service_intro": "Our premium service offers solutions tailored to your specific needs...",
+    "key_benefits": "Key Benefits",
+    "custom_solution": "Custom Solution",
+    "support_24_7": "24/7 Support",
+    "cutting_edge_tech": "Cutting-edge Technologies",
+    "guaranteed_results": "Guaranteed Results",
+    "about_description": "We are a company of young Africans committed to effectively solving modern technology challenges. Your satisfaction is our top priority.",
+"faq_how_to_join": "How to join us?",
+"faq_how_to_join_answer": "By clicking the \"Send my order\" button or via our social media.",
+"faq_advantage_question": "What are the benefits of working with BonusAfrica?",
+"faq_advantage_answer": "We are a company of young Africans committed to solving modern technology challenges. Your satisfaction is our top priority.",
+"faq_project_duration": "How long does it take to complete a project?",
+"faq_project_duration_answer": "It depends on the project, but we usually deliver within 3 to 7 days depending on complexity.",
+
+"faq_payment_methods": "What payment methods are accepted?",
+"faq_payment_methods_answer": "We accept Mobile Money, bank transfer, PayPal, and credit cards.",
+
+"faq_modification_policy": "Can I request changes after delivery?",
+"faq_modification_policy_answer": "Yes, you are entitled to free revisions according to the initial agreement."
+
+
+
+    
+
+
+
 }

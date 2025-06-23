@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
-import { servicesData } from "../components/ServiceCard";
+import { useServicesData } from "../components/ServiceCard";
 import { 
   FaReact, FaNodeJs, FaCss3Alt, FaDatabase, 
   FaPython, FaTools, FaCloud, FaQuoteLeft,
@@ -10,6 +10,7 @@ import ContactPopup from "../components/ContactPopup";
 
 const Home = () => {
   const { t } = useTranslation();
+  const servicesData = useServicesData();
   const [contactOpen, setContactOpen] = useState(false);
   const [selectedService, setSelectedService] = useState(null);
   const [currentBgIndex, setCurrentBgIndex] = useState(0);
@@ -86,7 +87,7 @@ const Home = () => {
               className="bg-white hover:bg-gray-100 text-gray-800 px-8 py-3 rounded-lg transition-all text-lg font-semibold shadow-lg transform hover:scale-105"
               onClick={() => document.getElementById('services').scrollIntoView()}
             >
-              Nos Services
+              {t("Our_Services")}
             </button>
           </div>
         </div>
@@ -107,42 +108,44 @@ const Home = () => {
 <section id="services" className="py-12 md:py-16">
   <div className="text-center mb-12">
     <h2 className="text-3xl md:text-4xl font-bold text-teal-600 dark:text-teal-300">
-      Nos Services Premium
+    {t("Our_Premium_Services")}
     </h2>
     <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
-      Découvrez nos solutions sur mesure pour votre réussite numérique
+    {t("Discover")}
     </p>
   </div>
 
+
   <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-    {servicesData.map((service, index) => (
-      <div 
-        key={index} 
-        className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col cursor-pointer"
-        onClick={() => setSelectedService(service)}
-      >
-        {/* Conteneur d'image */}
-        <div className="relative aspect-video w-full mb-4 rounded-lg overflow-hidden">
-          <img 
-            src={service.image}
-            alt={service.title}
-            className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-            loading="lazy"
-          />
+      {servicesData.map((service, index) => (
+        <div 
+          key={index} 
+          className="bg-white dark:bg-gray-800 p-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 flex flex-col cursor-pointer"
+          onClick={() => setSelectedService(service)}
+        >
+          {/* Conteneur d'image */}
+          <div className="relative aspect-video w-full mb-4 rounded-lg overflow-hidden">
+            <img 
+              src={service.image}
+              alt={service.title}
+              className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 hover:scale-105"
+              loading="lazy"
+            />
+          </div>
+          
+          <h3 className="font-bold text-xl text-teal-700 dark:text-teal-400 mb-3">
+            {service.title}
+          </h3>
+          <p className="text-gray-600 dark:text-gray-300 flex-grow">
+            {service.description}
+          </p>
+          <button className="mt-4 text-teal-600 dark:text-teal-400 font-medium self-start">
+          {t("learn_more")} →
+          </button>
         </div>
-        
-        <h3 className="font-bold text-xl text-teal-700 dark:text-teal-400 mb-3">
-          {service.title}
-        </h3>
-        <p className="text-gray-600 dark:text-gray-300 flex-grow">
-          {service.description}
-        </p>
-        <button className="mt-4 text-teal-600 dark:text-teal-400 font-medium self-start">
-          En savoir plus →
-        </button>
-      </div>
-    ))}
-  </div>
+      ))}
+    </div>
+
 </section>
 
 {/* Popup de service - Version corrigée */}
@@ -169,30 +172,32 @@ const Home = () => {
           </div>
           
           <div className="md:w-1/2">
-            <h3 className="text-2xl md:text-3xl font-bold text-teal-600 dark:text-teal-400 mb-4">
-              {selectedService.title}
-            </h3>
-            <p className="text-gray-700 dark:text-gray-300 mb-6">
-              {selectedService.detailedDescription || "Notre service premium offre des solutions adaptées à vos besoins spécifiques..."}
-            </p>
-            
-            <div className="space-y-3 mb-6">
-              <h4 className="font-semibold text-lg">Avantages clés :</h4>
-              <ul className="space-y-2">
-                {(selectedService.benefits || [
-                  "Solution personnalisée",
-                  "Support 24/7",
-                  "Technologies de pointe",
-                  "Résultats garantis"
-                ]).map((benefit, i) => (
-                  <li key={i} className="flex items-start">
-                    <span className="text-teal-500 mr-2 mt-1">•</span>
-                    {benefit}
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+      <h3 className="text-2xl md:text-3xl font-bold text-teal-600 dark:text-teal-400 mb-4">
+        {selectedService.title}
+      </h3>
+
+      <p className="text-gray-700 dark:text-gray-300 mb-6">
+        {selectedService.detailedDescription || t("premium_service_intro")}
+      </p>
+
+      <div className="space-y-3 mb-6">
+        <h4 className="font-semibold text-lg">{t("key_benefits")} :</h4>
+        <ul className="space-y-2">
+          {(selectedService.benefits || [
+            t("custom_solution"),
+            t("support_24_7"),
+            t("cutting_edge_tech"),
+            t("guaranteed_results")
+          ]).map((benefit, i) => (
+            <li key={i} className="flex items-start">
+              <span className="text-teal-500 mr-2 mt-1">•</span>
+              {benefit}
+            </li>
+          ))}
+        </ul>
+      </div>
+    </div>
+
         </div>
         
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4 border-t border-gray-200 dark:border-gray-700 pt-6">
@@ -218,7 +223,7 @@ const Home = () => {
             }}
             className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-lg transition font-semibold w-full sm:w-auto text-center"
           >
-            Demander ce service
+            {t("request_service")}
           </button>
         </div>
       </div>
@@ -229,10 +234,10 @@ const Home = () => {
       <section id="tech" className="py-12 md:py-16 bg-gray-50 dark:bg-gray-900 rounded-xl">
         <div className="text-center mb-12 px-4">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-600 dark:text-teal-300 mb-4">
-            Technologies Maîtrisées
+          {t("mastered_technologies")}
           </h2>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            Nous utilisons les dernières technologies pour des solutions performantes
+          {t("latest_tech_description")}
           </p>
         </div>
 
@@ -254,28 +259,28 @@ const Home = () => {
       <section className="py-12 md:py-16">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-teal-600 dark:text-teal-300">
-            Ils nous font confiance
+          {t("trusted_by")}
           </h2>
           <p className="text-gray-600 dark:text-gray-400 mt-4 max-w-2xl mx-auto">
-            Découvrez ce que nos clients disent de notre travail
+          {t("testimonials_intro")}
           </p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 px-4">
           {[
             { 
-              text: "BonusAfrica a transformé notre présence en ligne. Leur équipe a su comprendre nos besoins et livrer un produit exceptionnel dans les délais.",
+              text: "BonusAfrica transformed our online presence. Their team understood our needs and delivered an exceptional product on time.",
               name: "Jean Koffi",
               role: "CEO, TechSolutions"
             },
             { 
               text: "Service client exceptionnel et expertise technique impressionnante. Nous avons multiplié nos revenus en ligne grâce à leurs solutions.",
               name: "Amina Diallo",
-              role: "Directrice Marketing"
+              role: "Marketing Director"
             },
             { 
-              text: "Le site web qu'ils ont créé pour nous est non seulement magnifique mais aussi très performant. Très satisfait du partenariat.",
-              name: "Marc Kouassi",
+              text: "Urubuga rwa interineti badukoreye si rwiza gusa, ahubwo runakora neza cyane. Twanyuzwe cyane n’ubufatanye.",
+              name: "Rutete Marc",
               role: "Entrepreneur"
             },
           ].map((testimonial, i) => (
@@ -305,7 +310,7 @@ const Home = () => {
       {/* CTA Final */}
       <div className="py-12 text-center bg-gradient-to-r from-teal-500 to-blue-600 rounded-xl">
         <h3 className="text-2xl md:text-3xl font-bold text-white mb-6">
-          Prêt à transformer votre projet ?
+        {t("ready_to_transform")}
         </h3>
         <button
           onClick={() => setContactOpen(true)}

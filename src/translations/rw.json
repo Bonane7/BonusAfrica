@@ -22,6 +22,91 @@
     "location": "Kigali, Kimisagara",
     "what_is_bonusAfrica":"BonusAfrica igufasha kugaragara kuri interineti ku giciro gito, ukoresheje ibisubizo bigezweho kandi byihuse.",
     "Who_are_we":"Turi bande?",
-    "Description":"BonusAfrica ni sosiyete ya tekinoloji yo muri Afurika igamije kugeza ikoranabuhanga ku bantu bose.Twemera ko ikoranabuhanga rifite uruhare rwiza mu buzima bwa buri munsi."
+    "Description":"BonusAfrica ni sosiyete ya tekinoloji yo muri Afurika igamije kugeza ikoranabuhanga ku bantu bose.Twemera ko ikoranabuhanga rifite uruhare rwiza mu buzima bwa buri munsi.",
+     "Technologies": "Ikoranabuhanga ryacu",
+     "Our_Services": "Serivisi zacu",
+     "Our_Premium_Services":"Serivisi zacu z’ikirenga",
+     "Discover":"Menya ibisubizo byihariye tugufitiye kugira ngo ugerweho n’intsinzi mu ikoranabuhanga",
+     "creation-site": "Gukora urubuga rusanzwe",
+  "creation-site-description": "Urubuga rwihuse rw'amamaza ibikorwa byawe ku 7 000 FRW.",
+
+  "ecommerce-site": "Urubuga rw'ubucuruzi",
+  "ecommerce-site-description": "Curuza ibicuruzwa byawe kuri interineti byoroshye.",
+
+  "delivery-app": "Porogaramu y’Itangwa",
+  "delivery-app-description": "Gucunga ibikorwa byo gutanga mu bigo.",
+
+  "portfolio": "Portfolio y'umwuga",
+  "portfolio-description": "Erekana ubushobozi bwawe neza ku 7 000 FRW.",
+
+  "web-dev": "Iterambere rya Web",
+  "web-dev-description": "Tugukorera imbuga zigezweho kandi zinoze",
+  "web-dev-details": "Dukora imbuga zabugenewe dukoresheje ikoranabuhanga rishya...",
+  "web-dev-benefits": [
+    "Igishushanyo cyihuta ku bikoresho byose",
+    "Kunoza SEO",
+    "Guhuza na CMS"
+  ],
+
+  "mobile-app": "Porogaramu za Mobile",
+  "mobile-app-description": "Porogaramu z’abasanzwe na cross-platform",
+  "mobile-app-details": "Dukora porogaramu zigendanwa kuri iOS na Android...",
+  "mobile-app-benefits": [
+    "Interface yorohereye",
+    "Imikorere yihuse",
+    "Gufasha mu mikorere"
+  ],
+
+  "graphic-design": "Igishushanyo cya grafiki",
+  "graphic-design-description": "Isura y’ikigo n’udushushanyo tw’ubugeni",
+  "graphic-design-details": "Duhanga isura ikomeye y’ikigo cyawe...",
+  "graphic-design-benefits": [
+    "Logo yihariye",
+    "Imiterere y’ishusho",
+    "Ibikoresho byo kwamamaza ku mpapuro no kuri internet"
+  ],
+
+  "team-support": "Ikipe igufasha",
+  "team-support-description": "Ikipe yacu y’inzobere iragufasha buri ntambwe",
+  "team-support-details": "Muri BonusAfrica, twemera gufasha umuntu ku giti cye. Ikipe yacu ihari igihe cyose kuva aho mumenyaniye kugeza aho igikorwa kirangiye.",
+  "team-support-benefits": [
+    "Inzobere zihari amasaha 24/7",
+    "Kugufasha ku giti cyawe",
+    "Ibisubizo byihuse",
+    "Ibisubizo bikwiriye ibyo ukeneye"
+  ],
+  "available_now": "Biraboneka ubu",
+  "request_service": "Saba iyi serivisi",
+  "mastered_technologies": "Ikoranabuhanga Twamenyereye",
+  "latest_tech_description": "Dukoresha ikoranabuhanga rigezweho kugira ngo dutange ibisubizo binogeye",
+  "trusted_by": "Batwizera",
+  "testimonials_intro": "Menya ibyo abakiliya bacu bavuga ku kazi dukora",
+  "ready_to_transform": "Witeguye guhindura umushinga wawe?",
+  "premium_service_intro": "Serivisi yacu ya premium itanga ibisubizo bijyanye n’ibyo ukeneye byihariye...",
+  "key_benefits": "Ibyiza by’ingenzi",
+  "custom_solution": "Igisubizo cyihariye",
+  "support_24_7": "Ubufasha amasaha 24/7",
+  "cutting_edge_tech": "Ikoranabuhanga rigezweho",
+  "guaranteed_results": "Ibyavuyemo byizewe",
+  "about_description": "Turi kompanyi igizwe n’urubyiruko rw’Afurika rwiyemeje gukemura neza ibibazo by’ikoranabuhanga rigezweho. Icyitonderwa cyacu cya mbere ni uko wishimira serivisi zacu.",
+  "faq_how_to_join": "Nigute wakwifatanya natwe?",
+"faq_how_to_join_answer": "Ushobora gukanda kuri buto \"Ohereza itegeko ryanjye\" cyangwa kudukurikira ku mbuga nkoranyambaga.",
+"faq_advantage_question": "Ni ayahe mahirwe yo gukorana na BonusAfrica?",
+"faq_advantage_answer": "Turi kompanyi igizwe n’urubyiruko rw’Afurika rwiyemeje gukemura neza ibibazo by’ikoranabuhanga rigezweho. Icyo dushyize imbere ni uko wanyurwa na serivisi zacu.",
+"faq_project_duration": "Gukora umushinga bimara igihe kingana iki?",
+"faq_project_duration_answer": "Biterwa n’uburemere bw’umushinga, ariko akenshi turawutanga hagati y’iminsi 3 na 7.",
+
+"faq_payment_methods": "Ni ubuhe buryo bwo kwishyura bwemewe?",
+"faq_payment_methods_answer": "Twemera Mobile Money, konti ya banki, PayPal n’amakarita y’imari.",
+
+"faq_modification_policy": "Ese nshobora gusaba impinduka nyuma yo kwakira umushinga?",
+"faq_modification_policy_answer": "Yego, wemerewe impinduka z’ubuntu hakurikijwe ibyo mwumvikanye mbere."
+
+
+
+
+
+
+ 
   }
   

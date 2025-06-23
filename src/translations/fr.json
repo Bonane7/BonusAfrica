@@ -22,6 +22,87 @@
     "location": "Kigali, Kimisagara",
     "what_is_bonusAfrica":"BonusAfrica vous aide à être visible en ligne à moindre coût, avec des solutions modernes et rapides.",
     "Who_are_we":"Qui sommes-nous ",
-    "Description":"BonusAfrica est une entreprise tech africaine qui vise à rendre le digital accessible à tous Nous croyons à l'impact positif de la technologie dans les vies quotidiennes."
+    "Description":"BonusAfrica est une entreprise tech africaine qui vise à rendre le digital accessible à tous Nous croyons à l'impact positif de la technologie dans les vies quotidiennes.",
+     "Technologies": "Nos Technologies",
+     "Our_Services": "Nos Services",
+     "Our_Premium_Services":"Nos Services Premium",
+     "Discover":"Découvrez nos solutions sur mesure pour votre réussite numérique",
+     "creation-site": "Création de site web statique",
+     "creation-site-description": "Site vitrine rapide pour votre activité à 7 000 FRW.",
+   
+     "ecommerce-site": "Site e-commerce",
+     "ecommerce-site-description": "Vendez vos produits en ligne facilement.",
+   
+     "delivery-app": "Application de livraison",
+     "delivery-app-description": "Gestion de livraison pour entreprise.",
+   
+     "portfolio": "Portfolio professionnel",
+     "portfolio-description": "Présentez vos compétences efficacement à 7 000 FRW.",
+   
+     "web-dev": "Développement Web",
+     "web-dev-description": "Créez des sites web modernes et performants",
+     "web-dev-details": "Nous développons des sites web sur mesure avec les dernières technologies...",
+     "web-dev-benefits": [
+       "Design responsive",
+       "Optimisation SEO",
+       "Intégration CMS"
+     ],
+   
+     "mobile-app": "Applications Mobile",
+     "mobile-app-description": "Applications natives et cross-platform",
+     "mobile-app-details": "Développement d'applications mobiles pour iOS et Android...",
+     "mobile-app-benefits": [
+       "Interface intuitive",
+       "Performances optimales",
+       "Maintenance incluse"
+     ],
+   
+     "graphic-design": "Design Graphique",
+     "graphic-design-description": "Identité visuelle et créations graphiques",
+     "graphic-design-details": "Création d'identités visuelles percutantes pour votre marque...",
+     "graphic-design-benefits": [
+       "Logo personnalisé",
+       "Charte graphique",
+       "Supports print et digital"
+     ],
+   
+     "team-support": "Équipe à vos côtés",
+     "team-support-description": "Notre équipe experte vous accompagne à chaque étape",
+     "team-support-details": "Chez BonusAfrica, nous croyons en un accompagnement personnalisé. Notre équipe dédiée est disponible pour vous guider du premier contact jusqu'à la réalisation finale de votre projet.",
+     "team-support-benefits": [
+       "Expertise disponible 24/7",
+       "Suivi personnalisé",
+       "Réponses rapides à vos questions",
+       "Solutions adaptées à vos besoins"
+     ],
+     "available_now": "Disponible maintenant",
+     "request_service": "Demander ce service",
+      "mastered_technologies": "Technologies Maîtrisées",
+      "latest_tech_description": "Nous utilisons les dernières technologies pour des solutions performantes",
+      "trusted_by": "Ils nous font confiance",
+      "testimonials_intro": "Découvrez ce que nos clients disent de notre travail",
+      "ready_to_transform": "Prêt à transformer votre projet ?",
+      "premium_service_intro": "Notre service premium offre des solutions adaptées à vos besoins spécifiques...",
+      "key_benefits": "Avantages clés",
+      "custom_solution": "Solution personnalisée",
+      "support_24_7": "Support 24/7",
+      "cutting_edge_tech": "Technologies de pointe",
+      "guaranteed_results": "Résultats garantis",
+      "about_description": "Nous sommes une entreprise de jeunes Africains qui s'engage à bien résoudre les problèmes de la nouvelle technologie. Notre préoccupation principale est votre satisfaction.",
+     "faq_how_to_join": "Comment nous rejoindre ?",
+      "faq_how_to_join_answer": "En cliquant sur le bouton \"Envoyer ma commande\" ou via nos réseaux sociaux.",
+      "faq_advantage_question": "Quels sont les avantages de travailler avec BonusAfrica ?",
+      "faq_advantage_answer": "Nous sommes une entreprise de jeunes Africains qui s'engage à bien résoudre les problèmes de la nouvelle technologie. Notre préoccupation principale est votre satisfaction.",
+      "faq_project_duration": "Combien de temps prend la réalisation d’un projet ?",
+      "faq_project_duration_answer": "Cela dépend du projet, mais en général nous livrons sous 3 à 7 jours selon la complexité.",
+      "faq_payment_methods": "Quels sont les moyens de paiement acceptés ?",
+      "faq_payment_methods_answer": "Nous acceptons Mobile Money, virement bancaire, PayPal et les cartes bancaires.",
+      "faq_modification_policy": "Puis-je demander des modifications après livraison ?",
+      "faq_modification_policy_answer": "Oui, vous avez droit à des modifications gratuites selon le contrat initial."
+
+
+
+
+
   }
   
