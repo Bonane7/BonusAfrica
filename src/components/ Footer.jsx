@@ -216,24 +216,6 @@ const Footer = () => {
           <div className="text-gray-400 text-sm mb-4 md:mb-0">
             © {new Date().getFullYear()} BonusAfrica. {t("all_rights_reserved")}.
           </div>
-          {/* <div className="flex space-x-4">
-          <a
-              href="/terms"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-600 hover:underline"
-            >
-              Terms of Use
-            </a>
-            <a
-              href="/privacy"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-600 hover:underline ml-4"
-            >
-              Privacy Policy
-          </a>
-          </div> */}
         </div>
       </div>
     </footer>
